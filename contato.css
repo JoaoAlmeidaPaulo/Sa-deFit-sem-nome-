@@ -11,6 +11,11 @@ body {
     background-color: #E0ECDA;
 }
 
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .cabecalho {
     background-color: #A2CA8E;
     display: flex;
@@ -68,11 +73,35 @@ div {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 30px;
+}
+
+.titulo {
+    color: #361F2D;
+    font-family: 'Angkor', cursive;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.subtitulo {
+    color: #63203D;
+    font-family: 'Assistant', sans-serif;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 25px;
 }
 
 .imagem {
     height: 300px;
     border-radius: 50%;
+    margin: 30px;
 }
 
+.paragrafo {
+    margin: 10px;
+    font-weight: 400;
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    color: #63203D;
+}
