@@ -74,6 +74,7 @@ body {
     background-color: #A2CA8E;
     border: #A2CA8E solid 2px;
     border-radius: 25px;
+    margin: 50px;
 }
 
 .conteudo-principal-escrito {
@@ -87,3 +88,28 @@ body {
     border-radius: 25px;
 }
 
+.conteudo-principal-escrito-titulo {
+    color: #361F2D;
+    font-family: 'Angkor', cursive;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    color: #63203D;
+    font-family: 'Assistant', sans-serif;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.conteudo-principal-escrito-paragrafo {
+    color: #63203D;
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
