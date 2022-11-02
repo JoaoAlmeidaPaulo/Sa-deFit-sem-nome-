@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Assistant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0ECDA;
+}
+
+.cabecalho {
+    background-color: #A2CA8E;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem {
+    height: 75px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Assistant', sans-serif;
+    color: #63203D;
+    font-weight: 400;
+}
+
+.rodape {
+    background-color: #A2CA8E;
+    padding: 20px;
+}
+
+.rodape-menu-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.rodape-imagem {
+    height: 40px;
+}
+
+.rodape-menu{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rodape-menu-item {
+    font-family: 'Assistant', sans-serif;
+    color: #63203D;
+    font-weight: 400;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.imagem {
+    height: 300px;
+    border-radius: 50%;
+}
+
