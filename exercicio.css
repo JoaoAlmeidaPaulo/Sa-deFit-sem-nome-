@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+
+  
+
+* { 
+
+    margin: 0 auto; 
+
+    padding: 0; 
+
+    box-sizing: border-box; 
+
+    font-family: 'Open Sans', sans-serif; 
+
+} 
+
+  
+
+#menu-h{ 
+
+    background-color:#a2ca8e; 
+
+} 
+
+  
+
+#menu-h ul { 
+
+    max-width: 1100px; 
+
+    list-style: none; 
+
+    padding: 30; 
+
+    text-align: right; 
+
+} 
+
+  
+
+#menu-h ul li { 
+
+    display: inline; 
+
+} 
+
+  
+
+#menu-h ul li a { 
+
+    color:#63203D; 
+
+    padding: 10px; 
+
+    display: inline-block; 
+
+    text-decoration: none; 
+
+    transition: background .4s; 
+
+} 
+
+img{ 
+
+        border-radius: 30px;      
+
+} 
+
+body { 
+
+        background-color:#E0ECDA; 
+
+       } 
+
+ 
+ 
+
+.itens{ 
+
+       text-align: center; 
+
+        
+
+} 
+
+.itens{ 
+
+        max-width: 4000px; 
+
+        list-style: none; 
+
+         background-color:#a2ca8e; 
+
+         padding: 100; 
+
+         text-align:center;   
+
+         display: block; 
+
+         align-items: center; 
+
+         height: 100px; 
+
+} 
+
+ 
+ 
+
+.conteudo-padrao{ 
+
+        text-align:justify; 
+
+        outline-width: 400; 
+
+        font-size: 22px; 
+
+        color: #63203D; 
+
+        font-family: 'Angkor', cursive; 
+
+        margin-left: 30px; 
+        font-size: clamp(1.75em,1em+ 3vw+2.5em);
+
+} 
+
+.conteudo-2{ 
+
+        text-align:justify; 
+
+        outline-width: 400; 
+
+        font-size: 22px; 
+
+        color: #63203D; 
+
+        font-family: 'Angkor', cursive; 
+
+        margin-left: 3px; 
+        font-size: clamp(1.75em,1em+ 3vw+2.5em);
+
+} 
+
+ 
+ 
+
+.corpo{ 
+
+        width: 1200px; 
+
+        margin:auto; 
+        color: #361F2D;
+
+} 
+
+.conteudo{ 
+
+        text-align:justify; 
+
+        display: table; 
+
+        outline-width: 400; 
+
+        font-size: 22px; 
+
+        color: #63203D; 
+
+        font-family: 'Angkor', cursive; 
+
+        margin-left: 30px; 
+        font-size: clamp(1.75em,1em+ 3vw+2.5em);
+
+         
+
+} 
+
+.imagem{ 
+
+        display: table-cell; 
+
+        float: left; 
+
+        text-align:justify; 
+
+        width: 1200px; 
+} 
+
+.texto{ 
+
+        display: table-cell;  
+
+        float: left; 
+
+        width: 700px;  
+
+        margin-top: -1px; 
+
+        margin-left: 40px; 
+        font-size: clamp(1.75em,1em+ 3vw+2.5em);
+
+ 
+ 
+
+        outline-width: 400; 
+
+        font-size: 22px; 
+
+        color: #63203D; 
+
+        font-family: 'Angkor', cursive; 
+
+        margin-left: 30px; 
+
+}
